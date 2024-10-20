@@ -1,0 +1,141 @@
+main {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    padding: 24px;
+}
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-link {
+    margin-right: 20px; 
+}
+
+.profile-card, .edit-form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+.profile-card {
+    display: flex;
+}
+
+.edit-form {
+    display: none;
+}
+
+.profile-img {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img img {
+    width: 150px;
+    border-radius: 50%;
+    height : 150px;
+}
+
+.profile-info {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.profile-info h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.buttons {
+    margin-top: 40px;
+}
+
+.edit-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.resume-btn {
+    background-color: #fff;
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+.resume-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.profile-details {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.profile-details p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+.profile-details strong {
+    font-weight: bold;
+}
+
+.edit-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.edit-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-form label {
+    margin: 10px 0 5px;
+}
+
+.edit-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #218838;
+}
+
