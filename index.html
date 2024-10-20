@@ -46,7 +46,7 @@
                 <h2 style="margin-top: 10px;" id="profileName">Nama Anda</h2>
                 <p style="margin-top: 12px; font-size: 14px;" id="profileRole">Front End Designer</p>
                 <div class="buttons">
-                    <button id="editBtn" class="edit-btn" onclick="display()">Edit</button>
+                    <button id="editBtn" class="edit-btn" onclick="displayEditForm()">Edit</button>
                     <button id="resumeBtn" class="resume-btn">Resume</button>
                 </div>
             </div>
@@ -58,32 +58,31 @@
                 <p><strong>Email:</strong> <span id="profileEmail">email@gmail.com</span></p>
             </div>
         </div>
-
-
-        <div id="edit-form" class="edit-form">
+    
+        <div id="edit-form" class="edit-form" style="display: none;">
             <h3>Section Form</h3>
             <form id="profileEditForm">
                 <label for="name">Nama</label>
-                <input type="text" id="name" name="name" value="Nama Anda">
-
+                <input type="text" id="name" name="name">
+    
                 <label for="role">Role</label>
-                <input type="text" id="role" name="role" value="Front End Designer">
-
+                <input type="text" id="role" name="role">
+    
                 <label for="availability">Availability</label>
-                <input type="text" id="availability" name="availability" value="Full Time">
-
+                <input type="text" id="availability" name="availability">
+    
                 <label for="age">Usia</label>
-                <input type="number" id="age" name="age" value="19">
-
+                <input type="number" id="age" name="age">
+    
                 <label for="location">Lokasi</label>
-                <input type="text" id="location" name="location" value="Jakarta">
-
+                <input type="text" id="location" name="location">
+    
                 <label for="experience">Years Experience</label>
-                <input type="number" id="experience" name="experience" value="2">
-
+                <input type="number" id="experience" name="experience">
+    
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email" value="email@gmail.com">
-
+                <input type="email" id="email" name="email">
+    
                 <button type="submit" class="submit-btn">Submit</button>
             </form>
         </div>
